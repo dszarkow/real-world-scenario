@@ -190,7 +190,7 @@ func main() {
 
 	// Start this server on port 8080
 	// http.HandleFunc(), used in the handler functions above,
-	// binds that handler to the default HTTP handler.
+	// binds that handler function to the default HTTP handler.
 	// When http.ListenAndServe doesn't receive any handlers (i.e. nil is passed),
 	// it uses that default HTTP handler.
 	http.ListenAndServe(":8080", nil)
